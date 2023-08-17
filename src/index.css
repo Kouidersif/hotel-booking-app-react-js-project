@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    *{
+        @apply scroll-smooth select-none
+    }
+    button{
+        @apply border py-2 px-3 rounded-full font-semibold 
+    }
+    h1{
+        @apply font-bold text-5xl md:text-7xl drop-shadow-2xl
+    }
+    p{
+        @apply max-w-[600px] drop-shadow-2xl py-2
+    }
+    li{
+        @apply font-bold text-3xl 
+    }
+    ul{
+        @apply list-none
+    }
+}
